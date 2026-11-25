@@ -3,33 +3,70 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Datenschutz – Altersvorsorgedepot (Entwurf)</title>
+<title>Datenschutzhinweise zu den Test-Apps von Sebastian Lotz</title>
 <style>
-  body { font-family: -apple-system, system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.55; color: #1c1c1e; }
-  h1 { font-size: 1.5rem; } h2 { font-size: 1.1rem; margin-top: 1.6rem; }
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 44rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.55; color: #1c1c1e; }
+  h1 { font-size: 1.5rem; } h2 { font-size: 1.2rem; margin-top: 2.2rem; border-top: 1px solid #d1d1d6; padding-top: 1.2rem; } h3 { font-size: 1rem; margin-top: 1.2rem; }
   .klein { color: #6e6e73; font-size: .9rem; }
 </style>
 </head>
 <body>
-<h1>Datenschutzhinweis zur App „Altersvorsorgedepot (Entwurf)“</h1>
+<h1>Datenschutzhinweise zu den Test-Apps</h1>
 <p class="klein">Stand: 25.11.2026</p>
+<p>Diese Seite gilt für die Testfassungen der folgenden Apps, die über Apples TestFlight verteilt werden:</p>
+<ul>
+  <li><a href="#aygun">Aygün Automobile</a> (Kunden-App)</li>
+  <li><a href="#beifahrer">HofCar Beifahrer</a> (Mitarbeiter-App)</li>
+  <li><a href="#hofcar">HofCar</a></li>
+  <li><a href="#avdepot">Altersvorsorgedepot (Entwurf)</a></li>
+  <li><a href="#wort">Wort SL</a></li>
+</ul>
 
-<h2>Worum es geht</h2>
+<h3>Für alle Apps gilt</h3>
+<ul>
+  <li><strong>Verantwortlich</strong> für die Testfassungen ist Sebastian Lotz. Fragen zum Datenschutz senden Sie bitte über die Feedback-Funktion in TestFlight.</li>
+  <li><strong>Keine Werbung, kein Tracking, keine Analyse-Dienste</strong> von Dritten.</li>
+  <li><strong>TestFlight:</strong> Apple kann bei der Verteilung Absturzberichte, Nutzungsdaten und das Feedback erheben, das Sie selbst in TestFlight senden. Dafür gilt die Datenschutzerklärung von Apple: <a href="https://www.apple.com/de/legal/privacy/">apple.com/de/legal/privacy</a>.</li>
+  <li>Wenn Sie eine App löschen, sind auch alle Daten weg, die sie auf Ihrem Gerät gespeichert hat.</li>
+</ul>
+
+<h2 id="aygun">Aygün Automobile (Kunden-App)</h2>
+<p>Die App zeigt den Fahrzeugbestand eines Autohauses. In der Testfassung kommen die Fahrzeuge von einem Testserver und sind keine echten Angebote.</p>
+<ul>
+  <li><strong>Kein Konto:</strong> Die App fragt weder Name noch E-Mail, Telefon oder Anschrift ab.</li>
+  <li><strong>Auf dem Gerät</strong> bleiben Merkliste, Sprache, der zuletzt geladene Bestand und der Zeitpunkt des letzten Besuchs.</li>
+  <li><strong>Abruf vom Server:</strong> Beim Laden des Bestands fallen am Server übliche Verbindungsdaten an (IP-Adresse, Zeitpunkt, App-Fassung). Rechtsgrundlage ist das berechtigte Interesse am sicheren Betrieb (Art. 6 Abs. 1 Buchst. f DSGVO).</li>
+  <li><strong>Benachrichtigungen nur mit Einwilligung:</strong> Erst wenn Sie Benachrichtigungen erlauben, gehen an den Server: Push-Kennung, eine vom Server vergebene Gerätekennung, Sprache, Zeitzone, App-Fassung, Ruhezeit, Ihre Suchaufträge (zum Beispiel Marke, Modell, Preis bis) sowie Zeitpunkt und Fassung der Einwilligung. Sie können das in der App jederzeit mit „Alle meine Daten löschen“ zurücknehmen.</li>
+  <li><strong>Kontakt zum Autohaus</strong> über Telefon, E-Mail oder WhatsApp öffnet nur die jeweilige App auf Ihrem Gerät. Die Kunden-App selbst speichert oder sendet dabei nichts.</li>
+  <li>Standort, Kamera, Mikrofon, Kontakte und Fotos werden nicht abgefragt.</li>
+</ul>
+
+<h2 id="beifahrer">HofCar Beifahrer (Mitarbeiter-App)</h2>
+<p>Die App ist für Mitarbeiter eines Autohauses: Fahrzeuge aufnehmen, Verkauf und Probefahrt vorbereiten. Die Testfassung arbeitet mit Beispieldaten.</p>
+<ul>
+  <li><strong>Kamera:</strong> Fahrzeugfotos und Dokumente (zum Beispiel Ausweis oder Führerschein bei Verkauf und Probefahrt) werden mit der Kamera aufgenommen. Die Texterkennung läuft auf dem Gerät. Die Daten gehen nur an den Server des eigenen Autohauses, nicht an Dritte.</li>
+  <li><strong>Lokales Netz:</strong> Die App verbindet sich mit dem Server des Autohauses im eigenen Netz.</li>
+  <li><strong>Bankzugang (FinTS):</strong> Die Verbindung zur Bank läuft direkt vom Gerät zur Bank. Die PIN liegt im Schlüsselbund des Geräts und ist mit Face ID geschützt. Weder Server noch Entwickler erhalten PIN oder Kontodaten.</li>
+  <li><strong>Face ID</strong> dient nur zum Entsperren auf dem Gerät. Gesichtsdaten verlassen das Gerät nie.</li>
+</ul>
+
+<h2 id="hofcar">HofCar</h2>
+<p>Für diese App gibt es noch keine Testfassung. Vor dem ersten Test wird hier beschrieben, welche Daten sie verarbeitet.</p>
+
+<h2 id="avdepot">Altersvorsorgedepot (Entwurf)</h2>
 <p>Die App ist ein Entwurf zur Vorführung. Sie zeigt, wie ein Altersvorsorgedepot im Gespräch eröffnet werden könnte. Sie ist keine offizielle App der Sparda-Bank. Alle angezeigten Personen, Zahlen und Depots sind erfunden.</p>
-
-<h2>Welche Daten die App verarbeitet</h2>
 <ul>
   <li><strong>Keine Übertragung:</strong> Die App hat keinen Server und sendet keine Daten an den Anbieter oder an Dritte.</li>
   <li><strong>Kein Konto, keine Anmeldung:</strong> Es werden keine Namen, Adressen oder Bankdaten abgefragt.</li>
-  <li><strong>Kamera:</strong> Die Scan-Funktion nutzt die Kamera des Geräts nur, wenn Sie sie selbst starten. Das Bild bleibt im Arbeitsspeicher des Geräts, wird nicht gespeichert und nicht übertragen. Angezeigt werden immer Beispielwerte, nicht der Inhalt des Blatts.</li>
-  <li><strong>Auf dem Gerät gespeichert</strong> wird nur, welchen Musterkunden Sie gewählt haben, damit die App beim nächsten Start dort weitermacht. Löschen Sie die App, ist auch diese Einstellung weg.</li>
-  <li><strong>Keine Werbung, keine Analyse, kein Tracking.</strong></li>
+  <li><strong>Kamera:</strong> Die Scan-Funktion nutzt die Kamera nur, wenn Sie sie selbst starten. Das Bild bleibt im Arbeitsspeicher, wird nicht gespeichert und nicht übertragen. Angezeigt werden immer Beispielwerte, nicht der Inhalt des Blatts.</li>
+  <li><strong>Auf dem Gerät gespeichert</strong> wird nur, welchen Musterkunden Sie gewählt haben.</li>
 </ul>
 
-<h2>TestFlight</h2>
-<p>Die App wird über Apples TestFlight verteilt. Apple kann dabei Absturzberichte, Nutzungsdaten und Feedback erheben, das Sie selbst in TestFlight senden. Dafür gilt die Datenschutzerklärung von Apple: <a href="https://www.apple.com/de/legal/privacy/">apple.com/de/legal/privacy</a>.</p>
-
-<h2>Verantwortlich und Kontakt</h2>
-<p>Sebastian Lotz. Fragen zum Datenschutz senden Sie bitte über die Feedback-Funktion in TestFlight.</p>
+<h2 id="wort">Wort SL</h2>
+<p>Ein persönliches Werkzeug des Entwicklers, um Aufträge an seine eigenen Rechner zu bestätigen und Nachrichten zwischen ihnen zu lesen.</p>
+<ul>
+  <li><strong>Schlüssel im Gerät:</strong> Der Signaturschlüssel wird im Sicherheitschip des iPhones erzeugt und verlässt ihn nie. Jede Bestätigung braucht Face ID.</li>
+  <li><strong>Verbindung</strong> nur zu den eigenen Rechnern des Entwicklers, nicht zu Diensten Dritter.</li>
+</ul>
 </body>
 </html>
